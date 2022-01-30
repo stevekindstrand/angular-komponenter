@@ -1,0 +1,9 @@
+<div *ngFor="let animal of animalsList">
+    <div *ngIf="animal.isFed"> <!-- !animal.isFed -->
+        <h2>{{ animal.name }}</h2>
+        <p>
+            Age: {{ animal.age }}<br>
+            Color: {{ animal.color }}
+        </p>
+    </div>
+</div>
